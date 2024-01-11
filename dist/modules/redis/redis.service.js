@@ -21,7 +21,6 @@ let RedisService = class RedisService {
         this.redisConfig = redisConfig;
     }
     async onModuleInit() {
-        console.log('Run vo day');
         this.client = (0, redis_1.createClient)(Object.assign({ socket: {
                 host: process.env.REDIS_HOST,
                 port: +process.env.REDIS_PORT,
@@ -30,7 +29,6 @@ let RedisService = class RedisService {
             throw err;
         });
         await this.client.connect();
-        console.log('Redis connected');
     }
     async set(key, value) {
         return this.client.set(key, JSON.stringify(value));
