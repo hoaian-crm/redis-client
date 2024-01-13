@@ -1,6 +1,6 @@
 {
   "name": "@relationc/redis-client",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Redis client in project",
   "author": {
     "name": "Tran Hoai An",
