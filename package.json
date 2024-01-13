@@ -1,5 +1,5 @@
 {
-  "name": "@hoaian-crm/redis-client",
+  "name": "@relationc/redis-client",
   "version": "1.2.1",
   "description": "Redis client in project",
   "author": {
@@ -10,10 +10,6 @@
     "type": "git",
     "url": "https://github.com/hoaian-crm/redis-client.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/hoaian-crm"
-  },
-
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
